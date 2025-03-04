@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, sans-serif;
+}
+
+#map {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    width: 100%;
+}
+
+.legend {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Calibri, sans-serif;
+}
+
+.color-box {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+#button-container {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+#toggleLayer, #resetView {
+    background: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: Calibri, sans-serif;
+}
+
+#north-arrow {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+}

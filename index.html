@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiu3 - Web Map</title>
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="map"></div>
+
+    <div id="legend" class="legend">
+        <h3>Legend</h3>
+        <div><span class="color-box" style="background:#e73649"></span> Comedy Club</div>
+        <div><span class="color-box" style="background:#ee7d09"></span> Cultural Center</div>
+        <div><span class="color-box" style="background:#f8bd00"></span> Concert Hall</div>
+        <div><span class="color-box" style="background:#96c535"></span> Opera House</div>
+        <div><span class="color-box" style="background:#00a496"></span> Event Venue</div>
+        <div><span class="color-box" style="background:#0091d8"></span> Movie Theater</div>
+        <div><span class="color-box" style="background:#d45f9d"></span> Live Music Venue</div>
+        <div><span class="color-box" style="background:#844aa8"></span> Performing Arts Theater</div>
+        <div><img src="school.png" width="15"> Toronto</div>
+    </div>
+
+    <div id="button-container">
+        <button id="toggleLayer">Toggle Locations</button>
+        <button id="resetView">Reset View</button>
+    </div>
+
+    <!-- North Arrow -->
+    <div id="north-arrow">
+        <img src="north_arrow.png" alt="North Arrow" width="50">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
